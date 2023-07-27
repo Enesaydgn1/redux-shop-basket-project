@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+}
+.cartApp{
+  margin: 30px 0px;
+}
+.navDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: blueviolet;
+  color: white;
+}
+
+.navBasket {
+  position: relative;
+  font-size: 16px;
+}
+
+.navBasket .icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.navBasket p {
+  background-color: #ffff;
+  border-radius: 50%;
+  width: 20px;
+  text-align: center;
+  color: #000;
+}
+.cart {
+  text-align: center;
+}
+.cartClearButton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+}
+
+.cartDetail {
+  display: flex;
+  margin: 50px 150px;
+  justify-content: space-between;
+}
+
+.cartRightDetail{
+  text-align: right;
+}
+
+.cartQuantityButton{
+  border: none;
+}
+.cartQuantity{
+  margin-right: 8px;
+}
+
+.cartDeleteButton{
+  padding:10px 30px;
+  border: none;
+
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+}
